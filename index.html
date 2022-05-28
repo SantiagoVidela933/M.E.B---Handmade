@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="font.css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <title>M.E.B - Pastelería</title>
+</head>
+<body>
+    <!-- Navegador -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <h2>M E B</h2>
+            </div>
+            <div class="navbar-menu hidden">
+                <ul class="navbar-menu_ul">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- Menu Responsive -->
+            <div class="responsive-button hidden-mobile">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="navbar-menu-responsive hidden-mobile">
+                <ul class="menu-responsive_ul">
+                    <li class="menu-responsive_li fa-solid fa-house"><a href="#menu">    Menu</a></li>
+                    <li class="menu-responsive_li fa-solid fa-utensils"><a href="#producto">  Productos</a></li>
+                    <li class="menu-responsive_li fa-solid fa-user-group"><a href="#contacto">Contacto</a></li>
+                    <li class="menu-responsive_li fa-solid fa-mug-saucer"><a href="#sobreNos">   Sobre Nosotros</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Social Bar -->
+    <div class="social-bar">
+        <a href="https://www.facebook.com/santiago.videla.330" class="icon icon-facebook2" target="_blank"></a>
+        <a href="https://www.instagram.com/meb_handmade/" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://wa.me/5492615020577" class="icon icon-whatsapp" target="_blank"></a>
+    </div>
+    <!-- Main -->
+    <main class="main">
+        <div class="main-logo">
+            <img  src="Images/LogoMeb.png" alt="Logo de M.E.B">
+        </div>
+        <div class="main-slogan">
+            <h2>M.E.B - Handmade</h2>
+            <h5>Emprendimiento dedicado a la pastelería artesanal...</h5>
+        </div>
+    </main>
+    <!-- Divider -->
+    <div class="separator">
+        <svg class="separator__svg" width="100%" height="200" viewBox="0 0 100 100" preserveAspectRatio="none" fill=#ffe29d version="1.1" xmlns="http://www.w3.org/2000/svg">
+           <path d="M 100 100 V 10 L 0 100"/>
+           <path d="M 30 73 L 100 18 V 10 Z" fill="#3c0000" stroke-width="0"/>
+        </svg>
+    </div>
+    <!-- Seccion Sobre Nosotros -->   
+    <div class="container-sobreNosotros">
+        <div class="fondo-sobreNosotros">
+            <h2>Acerca de Nosotros</h2>
+            <div class="sobreNosotros">
+                <p>M.E.B es un emprendimiento dedicado a todo lo bueno de la pastelería artesanal.
+                    Desde tortas ideales para cualquier ocasión a budínes o alfajores de maicena 
+                    escenciales para acompañar unos buenos mates.
+                </p>
+                <p>
+                    Esta idea surge del amor a la pastelería, a lo dulce y  a las ganas de compartir
+                    lo que uno hace con total compromiso. Ofreciendo el mejor servicio a la gente que
+                    nos sigue; entregando calidez, sabor y calidad en nuestros exquisitos productos,
+                    los cuales hacen la diferencia que nuestros clientes prefieren.
+                </p>
+            </div>
+        </div>     
+    </div>
+    <!-- Sección de Carrousel -->
+    <div class="carousel">
+        <div class="product-list">
+            <div class="product-list_link">
+                <a href="#">Lista de Productos
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+            </div>
+        </div>
+        <div class="productos-container">
+            <div class="container-div div1">
+                <h5>TORTAS</h5>
+                <p>Marquise, Oreo, Cheesecake, Rey Limón</p>
+                <p>Oreo Doble, Mousse, Cheesecake</p>
+            </div>
+            <div class="container-div div3">
+                <h5>BUDINES</h5>
+                <p>Limón y Amapolas, Zanahoria, Naranja</p>
+                <p>Curcuma, Chocolate, Ricotta y Nuez</p>
+            </div>
+            <div class="container-div div2">
+                <h5>ALFAJORES</h5>
+                <p>Maicena (por docena)</p>
+                <p>Maicena-Grande (individual)</p>
+            </div>
+            <div class="container-div">
+                <h5>CHIPA</h5>
+                <p>Horneados (250grs)</p>
+                <p>Congelados</p>
+            </div>
+        </div>
+        <div class="carousel-container">
+            <button aria-label="Anterior" class="carousel-anterior">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="carousel-list">
+                <div class="carousel-element"><img src="Images/img1.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img2.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img3.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img4.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img5.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img6.png" alt=""></div>
+                <div class="carousel-element"><img src="Images/img7.jpg" alt=""></div>
+                <div class="carousel-element"><img src="Images/img8.png" alt=""></div>
+            </div>
+            <button aria-label="Siguiente" class="carousel-siguiente">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <div role="tablist" class="carousel-indicadores"></div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container-div div1">
+                <h5>DIRECCIÓN</h5>
+                <p>Barrio Parque Universitario MB C7</p>
+                <p>Luján de Cuyo, Mendoza. Argentina</p>
+            </div>
+            <div class="container-div div3">
+                <h5>HORARIOS</h5>
+                <p>Todos los días!</p>
+                <p>10AM - 8PM</p>
+            </div>
+            <div class="container-div div2">
+                <h5>CONTACTO</h5>
+                <p>Gmail: santi.videla@gmail.com.ar</p>
+                <p>Teléfono: 542615205777</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/5df49ce783.js" crossorigin="anonymous"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
