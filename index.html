@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/querys.css">
     <link rel="stylesheet" href="font.css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,17 +18,17 @@
 </head>
 <body>
     <!-- Navegador -->
-    <header>
+    <header id="menu">
         <nav class="navbar">
             <div class="navbar-brand">
                 <h2>M E B</h2>
             </div>
-            <div class="navbar-menu hidden">
-                <ul class="navbar-menu_ul">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+            <div class="navbar-menu">
+                <ul class="navbar-menu_ul hidden">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#sobreNos">Sobre Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             <!-- Menu Responsive -->
@@ -68,11 +69,11 @@
         </svg>
     </div>
     <!-- Seccion Sobre Nosotros -->   
-    <div class="container-sobreNosotros">
+    <div id="sobreNos" class="container-sobreNosotros">
         <div class="fondo-sobreNosotros">
             <h2>Acerca de Nosotros</h2>
             <div class="sobreNosotros">
-                <p>M.E.B es un emprendimiento dedicado a todo lo bueno de la pastelería artesanal.
+                <p class="hidden-sobreNos_p">M.E.B es un emprendimiento dedicado a todo lo bueno de la pastelería artesanal.
                     Desde tortas ideales para cualquier ocasión a budínes o alfajores de maicena 
                     escenciales para acompañar unos buenos mates.
                 </p>
@@ -86,7 +87,7 @@
         </div>     
     </div>
     <!-- Sección de Carrousel -->
-    <div class="carousel">
+    <div id="productos" class="carousel">
         <div class="product-list">
             <div class="product-list_link">
                 <a href="#">Lista de Productos
@@ -94,7 +95,7 @@
                 </a>
             </div>
         </div>
-        <div class="productos-container">
+        <div class="productos-container hidden">
             <div class="container-div div1">
                 <h5>TORTAS</h5>
                 <p>Marquise, Oreo, Cheesecake, Rey Limón</p>
@@ -136,7 +137,7 @@
         </div>
         <div role="tablist" class="carousel-indicadores"></div>
     </div>
-    <footer>
+    <footer id="contacto">
         <div class="footer-container">
             <div class="container-div div1">
                 <h5>DIRECCIÓN</h5>

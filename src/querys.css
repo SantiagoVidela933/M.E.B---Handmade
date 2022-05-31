@@ -1,0 +1,348 @@
+@media screen and (max-width: 320px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-slogan{
+        display: flex;
+        text-align: center;
+    }
+    .main-slogan h2{
+        font-size: 2rem;
+        transition-duration: .4s;
+    }
+    .main-slogan h5{
+        font-size: 1rem;
+    }
+    .container-sobreNosotros{
+        width: 100%;
+        height: 70vh;
+        margin-top: 0;
+    }
+    .fondo-sobreNosotros{
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .fondo-sobreNosotros h2{
+        font-size: 1.5rem;
+    }
+    .sobreNosotros{
+        margin: 1rem 0;
+    }
+    .sobreNosotros p{
+        font-size: 1rem;
+    }
+    .product-list_link{
+        padding-top: 1rem;
+    }
+    
+    .product-list_link a{
+        font-size: 1.5rem;
+        transition-duration: .3s;
+    }
+    .product-list_link a:hover{
+        font-size: 1.6rem;
+    }
+
+    .carousel-anterior,
+    .carousel-siguiente{
+        top: calc(50%);
+        font-size: 1rem;
+    }
+    .carousel-anterior{
+        left: -23px;
+    }
+    .carousel-siguiente{
+        right: -23px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    
+    
+    .hidden-sobreNos_p{display: none;}    
+    .social-bar{display: none;}
+    .separator{display: none;}
+}
+@media screen and (max-width: 375px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-slogan{
+        display: flex;
+        text-align: center;
+    }
+    .main-slogan h2{
+        font-size: 2rem;
+        transition-duration: .4s;
+    }
+    .main-slogan h5{
+        font-size: 1rem;
+    }
+    .container-sobreNosotros{
+        width: 100%;
+        height: 70vh;
+        margin-top: 0;
+    }
+    .fondo-sobreNosotros{
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .fondo-sobreNosotros h2{
+        font-size: 1.5rem;
+    }
+    .sobreNosotros{
+        margin: 1rem 0;
+    }
+    .sobreNosotros p{
+        font-size: 1rem;
+    }
+    .product-list_link{
+    }
+    .product-list_link a{
+        font-size: 1.5rem;
+        transition-duration: .3s;
+    }
+    .product-list_link a:hover{
+        font-size: 1.6rem;
+    }
+
+    .carousel-anterior,
+    .carousel-siguiente{
+        top: calc(50%);
+        font-size: 1rem;
+    }
+    .carousel-anterior{
+        left: -23px;
+    }
+    .carousel-siguiente{
+        right: -23px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    
+    
+    .hidden-sobreNos_p{display: none;}      
+    .social-bar{display: none;}
+    .separator{display: none;}
+}
+@media screen and (max-width: 450px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-slogan{
+        display: flex;
+        text-align: center;
+    }
+    .main-slogan h2{
+        font-size: 2rem;
+        transition-duration: .4s;
+    }
+    .main-slogan h5{
+        font-size: 1rem;
+    }
+    .container-sobreNosotros{
+        height: 70%;
+        margin-top: 0;
+    }
+    .fondo-sobreNosotros{
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .fondo-sobreNosotros h2{
+        font-size: 1.5rem;
+    }
+    .sobreNosotros{
+        margin: 1rem 0;
+    }
+    .sobreNosotros p{
+        font-size: 1rem;
+    }
+
+    .product-list_link{
+        padding-top: 1rem;
+    }
+    
+    .product-list_link a{
+        font-size: 1.5rem;
+        transition-duration: .3s;
+    }
+    .product-list_link a:hover{
+        font-size: 1.6rem;
+    }
+
+    .carousel-anterior,
+    .carousel-siguiente{
+        top: calc(50%);
+        font-size: 1rem;
+    }
+    .carousel-anterior{
+        left: -23px;
+    }
+    .carousel-siguiente{
+        right: -23px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    
+    
+    .hidden-sobreNos_p{display: none;}       
+    .social-bar{display: none;}
+    .separator{display: none;}
+}
+@media screen and (max-width: 829px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-slogan{
+        display: flex;
+        text-align: center;
+    }
+    .main-slogan h2{
+        font-size: 2rem;
+        transition-duration: .4s;
+    }
+    .main-slogan h5{
+        font-size: 1rem;
+    }
+    .container-sobreNosotros{
+        width: 100%;
+        height: 70vh;
+        margin-top: 0;
+    }
+    .fondo-sobreNosotros{
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .fondo-sobreNosotros h2{
+        font-size: 1.5rem;
+    }
+    .sobreNosotros{
+        margin: 1rem 0;
+    }
+    .sobreNosotros p{
+        font-size: 1rem;
+    }
+
+    .product-list_link{
+        padding-top: 2rem;
+    }
+    
+    .product-list_link a{
+        font-size: 1.5rem;
+        transition-duration: .3s;
+    }
+    .product-list_link a:hover{
+        font-size: 1.6rem;
+    }
+
+    .carousel-anterior,
+    .carousel-siguiente{
+        top: calc(50%);
+        font-size: 1rem;
+    }
+    .carousel-anterior{
+        left: -23px;
+    }
+    .carousel-siguiente{
+        right: -23px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    
+    
+    .social-bar{display: none;}
+    .separator{display: none;}
+    .hidden{display: none;}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .main-slogan{
+        display: flex;
+        text-align: center;
+    }
+    .main-slogan h2{
+        font-size: 2rem;
+        transition-duration: .4s;
+    }
+    .main-slogan h5{
+        font-size: 1rem;
+    }
+}

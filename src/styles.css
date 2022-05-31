@@ -105,7 +105,6 @@ body{
     align-items: center;
 
     background-color: var(--marron-claro);
-    width: 100%;
     height: 90vh;
 }
 .main-logo{
@@ -147,8 +146,6 @@ body{
     
     margin-top: -4px;
     background-color: #ffe29d;
-    width: 100%;
-    height: 100vh;
 }
 .fondo-sobreNosotros{
     display: flex;
@@ -157,7 +154,6 @@ body{
 
     margin: 0 5%;
     object-fit: cover;
-    border-radius: 2rem;
     height: 85%;
     width: 85%;
 }
@@ -177,11 +173,13 @@ body{
 
     width: 80%;
     height: 100%;
+    margin-bottom: 2rem;
 }
 .sobreNosotros p{
     font-size: 1.6rem;
     font-weight: bold;
     text-align: center;
+    padding: 10px 0;
 }
 /* Lista productos */
 .productos-container{
@@ -189,25 +187,44 @@ body{
     justify-content: space-evenly;
     align-items: center;
 
-    width: 100%;
-    height: 30vh;
+    margin: 0 1.5rem;
     background: var(--marron-claro);
     color: var(--marron-oscuro);
     border: 1px solid var(--marron-oscuro);
-    border-radius: 6rem;
+    border-radius: 2rem;
     font-size: 1.1rem;
     text-align: center;
+}
+/* Link Productos */
+.product-list{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.product-list_link{
+    
+    margin-bottom: 1.5rem;
+}
+.product-list_link a{
+    padding: 0 1rem;
+    color: var(--marron-claro);
+    border: var(--marron-oscuro) 1px solid;
+    background-color: var(--marron-oscuro);
+    border-radius: 1rem;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.product-list_link a:hover{
+    font-size: 2.1rem;
 }
 /* Carrousel */
 .carousel{
     background-color: #ffe29d;
-    width: 100%;
-    height: 100vh;
 }
 .carousel-container{
     position: relative;
     margin: 0 5%;
-    padding-top: 6vh;
+    padding-top: 6vh;   
 }
 .carousel-anterior,
 .carousel-siguiente{
@@ -246,6 +263,7 @@ body{
     height: 4px;
     background: var(--marron-claro);
     border-radius: .4;
+    margin-bottom: 6vh;
 }
 .carousel-indicadores .glider-dot:hover{
     /* C */
@@ -253,38 +271,23 @@ body{
 .carousel-indicadores .glider-dot:active{
     /* C */
 }
-/* Link Productos */
-.product-list{
-    text-align: center;
-    font-size: 2rem;
-}
-.product-list_link{
-    margin-bottom: 1.2rem;
-}
-.product-list_link a{
-    padding: 0 1rem;
-    color: var(--marron-oscuro);
-    text-decoration: none;
-    transition-duration: .3s;
-}
-.product-list_link a:hover{
-    font-size: 2.1rem;
-    font-weight: bold;
-}
+
 /* Footer */
+
 .footer-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     width: 100%;
-    height: 30vh;
     background: var(--marron-oscuro);
     color: var(--marron-claro);
     font-size: 1.2rem;
     text-align: center;
 }
-
+.container-div{
+    margin: 1rem 0;
+}
 
 
 
